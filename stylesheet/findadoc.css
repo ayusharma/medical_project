@@ -1,0 +1,384 @@
+
+@charset "utf-8";
+/*
+Author Name: Ayush Sharma
+College: Arya College Of engineering & IT.
+Find eme at:
+ayush.sharma469@gmail.com
+www.github.com/ayusharma
+ */
+body {
+	margin:0;
+	padding:0;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	max-width:100%;
+	min-width:800px;
+}
+.full_status {
+	width:800px;
+	height:50px;
+	margin:auto;
+}
+.status {
+	padding:5px;
+	width:auto;
+	height:40px;
+	float:right;
+	background-color:#333;
+	border:0px;
+	border-radius:5px;
+	display:none;
+}
+.status_image {
+	width:40px;
+	height:40px;
+	float:left;
+}
+.status_image img {
+	border:0;
+	border-radius:5px;
+}
+.status_name {
+	width:auto;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	padding-top:10px;
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#333;
+	margin:0;
+	padding:0;
+}
+
+a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	
+}
+	
+a:link {
+	color:#333;
+	text-decoration:none;
+}
+a:visited {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#09F;
+	text-decoration:none;
+}
+a:active {
+	color:#333;
+	text-decoration:none;
+}
+
+hr {
+	width:800px;
+}
+
+header img {
+	
+	display:block;
+	margin:auto;
+}
+
+header {
+	width:800px;
+	height:70px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:auto;
+	
+}
+header nav ul {
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+header nav ul li {
+	list-style:none;
+	display:block;
+	float:left;
+	text-align:center;
+	margin:0px;
+	font-size:10px;
+	border:0px;
+	border-radius:5px;
+	padding:10px;
+}
+
+header ul li:nth-child(3){
+	background-color:#333;
+	
+}
+header ul li:nth-child(3) a{
+	color:#fff;
+}
+.HeaderTitle {
+	width:250px;
+	height:70px;
+	float:left;
+	
+}
+nav {
+	width:550px;
+	padding-top:30px;
+	height:40px;
+	float:left;
+	font-size:40px;
+	font-weight:bold;
+	color:#db1d18;
+
+	
+	
+}
+.cross {
+	width:28px;
+	height:23px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	float:right;
+	text-align:center;
+	padding-top:5px;
+	border: 1px solid #000;
+	border-radius:20px;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	font-color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+}
+.notifytext {
+	width:760px;
+	height:35px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	padding-top:15px;
+}
+.cross:hover {
+	background-color:#32525D;
+}
+.notify {
+		display:none;
+        width:800px;
+        height:50px;
+		border:0px;
+		border-radius:10px;
+        margin-left:auto;
+		margin-right:auto;
+		margin-bottom:30px;
+		margin-top:30px;
+        -webkit-animation: loading linear 1s infinite ;
+        -moz-animation: loading linear 1s infinite ;
+        -o-animation: loading linear 1s infinite ;
+        animation: loading linear 1s infinite ;
+		background-color:#90A4AB;
+}
+
+@keyframes loading {
+      0% {
+	         opacity:1;
+	         
+		}
+		50% {
+			opacity:0.8
+		}
+	    100% {
+		opacity:1;
+		
+	    }
+}
+
+
+@-webkit-keyframes loading {
+         0% {
+	         opacity:1;
+	         
+		}
+		50% {
+			opacity:0.8
+		}
+	    100% {
+		opacity:1;
+		
+	    }
+}
+@-moz-keyframes loading {
+         0% {
+	         opacity:1;
+	         
+		}
+		50% {
+			opacity:0.8
+		}
+	    100% {
+		opacity:1;
+		
+	    }
+}
+@-o-keyframes loading {
+         0% {
+	         opacity:1;
+	         
+		}
+		50% {
+			opacity:0.8
+		}
+	    100% {
+		opacity:1;
+		
+	    }
+}
+@-ms-keyframes loading {
+         0% {
+	         opacity:1;
+	         
+		}
+		50% {
+			opacity:0.8
+		}
+	    100% {
+		opacity:1;
+		
+	    }
+}
+.heading {
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+}
+
+form {
+	padding:5px;
+	
+	
+
+	
+}
+ table {
+	width:700px;
+	background-color:#90A4AB;
+	margin:auto;
+	padding:10px;
+	
+	
+	
+	
+}
+.menu {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	-moz-box-shadow:    6px 6px 9px 2px #ABABAB;
+ 	-webkit-box-shadow: 6px 6px 9px 2px #ABABAB;
+	-o-box-shadow: 6px 6px 9px 2px #ABABAB;
+	-ms-box-shadow: 6px 6px 9px 2px #ABABAB;
+ 	box-shadow:         6px 6px 9px 2px #ABABAB;
+	border:0px;
+	border-radius:10px;
+	overflow:hidden;
+}
+tr {
+	width:500px;
+}
+td {
+	
+	width:300px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	
+}
+ tr td:nth-child(2) {
+	width:380px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	text-align:left;
+}
+tr td:nth-child(1) {
+	width:380px;
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:bold;
+	text-align:right;
+}
+.FormElement {
+	width:200px;
+	height:15px;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+
+}
+ select {
+	border:1px solid #ccc;
+	border-radius:5px;
+	width:210px;
+	height:30px;
+	padding:5px;
+}
+.button {
+	border:0;
+	padding:8px;
+	width:auto;
+	background-color:#333;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	margin:5px;
+	font-weight:bold;
+	-webkit-transition:background-color .35s  linear;
+	-moz-transition:background-color .35s linear;
+	-o-transition:background-color .35s linear;
+	transition:background-color .35s linear;
+}
+ .button:hover {
+	background-color:#09F;
+}
+
+input, select {
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+}
+input:focus, select:focus{
+	background-color:#32525D;
+	color:#fff;
+
+}
+
+

@@ -1,0 +1,347 @@
+@charset "utf-8";
+/*
+Author Name: Ayush Sharma
+College: Arya College Of engineering & IT.
+Find eme at:
+ayush.sharma469@gmail.com
+www.github.com/ayusharma
+ */
+body {
+	margin:0;
+	padding:0;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	max-width:100%;
+	min-width:800px;
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#333;
+	margin:0;
+	padding:0;
+}
+
+a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+}
+	
+a:link {
+	color:#333;
+	text-decoration:none;
+}
+a:visited {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#09F;
+	text-decoration:none;
+}
+a:active {
+	color:#333;
+	text-decoration:none;
+}
+input, select {
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+}
+input:focus, select:focus{
+	background-color:#32525D;
+	color:#fff;
+
+}
+
+
+img {
+	max-width:100%;
+	display:block;
+	float:right;
+}
+
+header {
+	width:800px;
+	height:100px;
+	
+	padding-top:30px;
+	padding-bottom:10px;
+	margin:auto;
+	
+}
+header ul {
+	margin:0;
+	padding:0;
+	float:right;
+}
+header ul li {
+	list-style:none;
+	display:block;
+	float:left;
+	text-align:center;
+}
+header ul li:nth-child(1),header ul li:nth-child(5) {
+	width:90px;
+}
+header ul li:nth-child(2),header ul li:nth-child(3),header ul li:nth-child(4) {
+	width:120px;
+}
+.HeaderTitle {
+	width:250px;
+	height:100px;
+	
+	float:left;
+}
+nav {
+	width:490px;
+	padding-top:30px;
+	height:70px;
+	float:left;
+	font-family: 'Quintessential', cursive;
+	font-size:40px;
+	font-weight:bold;
+	color:#db1d18;
+	padding-left:60px;
+}
+
+
+/*Signup page */
+
+.SignUp form {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	background-color:#90A4AB;
+	padding:10px;
+	border:0px;
+	border-radius:0px;
+	-moz-box-shadow:    6px 6px 9px 2px #ABABAB;
+ 	 -webkit-box-shadow: 6px 6px 9px 2px #ABABAB;
+ 	 box-shadow:         6px 6px 9px 2px #ABABAB;
+	
+}
+.SignUp table {
+	width:500px;
+}
+.SignUp tr {
+	width:500px;
+}
+.SignUp td {
+	
+	width:240px;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	
+}
+.SignUp tr td:nth-child(2) {
+	width:230px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	text-align:left;
+}
+.SignUp tr td:nth-child(1) {
+	width:230px;
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:bold;
+	text-align:right;
+}
+.SignUp .FormElement {
+	width:200px;
+	height:15px;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+
+}
+.SignUp select {
+	border:1px solid #ccc;
+	border-radius:5px;
+	width:210px;
+	height:30px;
+	padding:5px;
+}
+.SignUp .FormElementAge {
+	width:50px;
+	height:15px;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.SignUp .button {
+	border:0;
+	padding:8px;
+	width:auto;
+	background-color:#333;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	margin:auto;
+	font-weight:bold;
+	-webkit-transition:background-color .35s  linear;
+	-moz-transition:background-color .35s linear;
+	-o-transition:background-color .35s linear;
+	transition:background-color .35s linear;
+}
+.SignUp .button:hover {
+	background-color:#09F;
+}
+
+
+
+
+/*user-login*/
+.WantSignUp {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:200px;
+	padding:30px;
+	margin:auto;
+	text-align:center;
+}
+.UserLogIn form {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	background-color:#90A4AB;
+	padding:10px;
+	border:0px;
+	border-radius:0px;
+	-moz-box-shadow:    6px 6px 9px 2px #ABABAB;
+ 	 -webkit-box-shadow: 6px 6px 9px 2px #ABABAB;
+ 	 box-shadow:         6px 6px 9px 2px #ABABAB;
+	
+}
+.UserLogIn table {
+	width:500px;
+}
+.UserLogIn tr {
+	width:500px;
+}
+.UserLogIn td {
+	
+	width:240px;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	
+}
+.UserLogIn tr td:nth-child(2) {
+	width:230px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	text-align:left;
+}
+.UserLogIn tr td:nth-child(1) {
+	width:230px;
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:bold;
+	text-align:right;
+}
+.UserLogIn .FormElement {
+	width:200px;
+	height:15px;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+
+}
+
+.UserLogIn .button {
+	border:0;
+	padding:8px;
+	width:auto;
+	background-color:#333;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	margin:auto;
+	font-weight:bold;
+	-webkit-transition:background-color .35s  linear;
+	-moz-transition:background-color .35s linear;
+	-o-transition:background-color .35s linear;
+	transition:background-color .35s linear;
+}
+.UserLogIn .button:hover {
+	background-color:#09F;
+}
+
+
+/*welcome page content*/
+.wel {
+	text-align:center;
+}
+.wel img {
+	padding:20px;
+	display:block;
+	margin:auto;
+	background-color:#fff;
+	opacity:0.8;
+	max-width:100%;
+	
+}
+.wel hr {
+	width:800px;
+}
+.wel .submition {
+	margin:auto;
+	width:800px;
+	height:120px;
+	margin-top:150px;
+	
+}
+.wel .subright,.wel .subleft {
+	width:380px;
+	height:100px;
+	
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+	padding:10px;
+}
+.wel .subleft {
+	text-align:left;
+}
+.wel .subright {
+	text-align:right;
+}
+.wel .entry {
+	width:120px;
+	margin:auto;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#fff;
+	background-color:#333;
+	border:0px;
+	border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+	-webkit-transition:background-color 0.3s linear;
+	-moz-transition:background-color 0.3s linear;
+	-o-transition:background-color 0.3s linear;
+	transition:background-color 0.3s linear;
+}
+.wel .entry:hover {
+	background-color:#000;
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/*
+Author Name: Ayush Sharma
+College: Arya College Of engineering & IT.
+Find eme at:
+ayush.sharma469@gmail.com
+www.github.com/ayusharma
+ */
+.wel {
+	text-align:center;
+}
+ img {
+	padding:20px;
+	display:block;
+	margin:auto;
+	background-color:#fff;
+	opacity:0.8;
+	max-width:100%;
+	
+}
+ hr {
+	width:800px;
+}
+.submition {
+	margin:auto;
+	width:800px;
+	height:120px;
+	margin-top:10px;
+	
+}
+.subright,.subleft {
+	width:380px;
+	height:100px;
+	
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+	padding:10px;
+}
+.subleft {
+	text-align:left;
+}
+.subright {
+	text-align:right;
+}
+.entry {
+	width:120px;
+	margin:auto;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#fff;
+	background-color:#333;
+	border:0px;
+	border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+	text-align:center;
+	-webkit-transition:background-color 0.3s linear;
+	-moz-transition:background-color 0.3s linear;
+	-o-transition:background-color 0.3s linear;
+	transition:background-color 0.3s linear;
+}
+.entry:hover {
+	background-color:#000;
+}
