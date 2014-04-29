@@ -8,7 +8,7 @@ www.github.com/ayusharma
 --->
 <?php
   $host = 'localhost';
-  $user = 'root';
+  $user = '';
   $password = '';
   $mysql_db = 'mp';
   $conn_err = 'could not connect';
