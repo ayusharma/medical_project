@@ -5,6 +5,14 @@ A system to prescribe the medicine for general symptoms is the the 2nd year unde
 which is developed in PHP and mysql databases. You can see live it on mp.pixelcount.net  
 or www.pixelcount.net/mp/index.html
 
+Technology Used:
+HTML5
+CSS3
+PHP
+MySQL
+jQuery
+GNU Linux
+Digital Ocean as VPS
 
 
 About Project:
