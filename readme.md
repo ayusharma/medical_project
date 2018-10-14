@@ -1,8 +1,8 @@
 ### medical_project
 ***
 
-A system to prescribe the medicine for general symptoms is the the 2nd year undergraduate college project 
-which is developed in PHP and mysql databases. You can see live it on mp.pixelcount.net  
+A system to prescribe the medicine for general symptoms is the 2nd year undergraduate college project 
+which is developed in PHP and mysql databases. You can see it live on mp.pixelcount.net  
 or www.pixelcount.net/mp/index.html
 
 ### Technology Used
